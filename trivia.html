@@ -1,14 +1,61 @@
-<main class="main">
-    <h3>BMI Calculator Trivia</h3>
-    <p>Enter your height(cm) and weight(kg) to calculate BMI and body category</p>
-    <div style="margin-top:15px;">
-        <label>Height (cm):</label>
-        <input type="number" id="height" placeholder="e.g. 170">
-        <br><br>
-        <label>Weight (kg):</label>
-        <input type="number" id="weight" placeholder="e.g. 62">
-        <br><br>
-        <button onclick="calculateBMI()">Calculate BMI</button>
-        <p id="bmiResult" style="margin-top:12px; font-size:18px;"></p>
-    </div>
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exercise4-BAI GALI | Trivia BMI Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>My Personal Website</header>
+<nav>
+  <a href="index.html">HOME</a> |
+  <a href="portfolio.html">PORTFOLIO</a> |
+  <a href="trivia.html">TRIVIA</a>
+</nav>
+
+<div class="content-wrap">
+    <aside class="sidebar">
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+            <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <h3>BMI Calculator Trivia</h3>
+        <p>Enter your height(cm) and weight(kg) to calculate BMI and body category</p>
+        <div style="margin-top:15px;">
+            <label>Height (cm):</label>
+            <input type="number" id="height" placeholder="e.g. 170">
+            <br><br>
+            <label>Weight (kg):</label>
+            <input type="number" id="weight" placeholder="e.g. 62">
+            <br><br>
+            <button onclick="calculateBMI()">Calculate BMI</button>
+            <p id="bmiResult" style="margin-top:12px; font-size:18px;"></p>
+        </div>
+    </main>
+
+    <section class="contact">
+        <h3>Contact Me</h3>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+            <p id="formTip"></p>
+        </form>
+    </section>
+</div>
+
+<footer>
+Created in July 2026 | <a href="https://github.com/你的账号" target="_blank">My GitHub</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
