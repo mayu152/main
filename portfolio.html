@@ -1,41 +1,88 @@
-<main class="main">
-    <h3>My Portfolio</h3>
-    <table>
-        <tr>
-            <th>No.</th>
-            <th>Project Name</th>
-            <th>Description</th>
-            <th>Finished Date</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Static Personal Blog</td>
-            <td>Simple HTML/CSS static blog page</td>
-            <td>Jan 2024</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>To-do List JS Tool</td>
-            <td>Interactive task list with JavaScript</td>
-            <td>May 2024</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Student Score Calculator</td>
-            <td>Calculate average score with form input</td>
-            <td>Aug 2024</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Responsive Product Card</td>
-            <td>CSS Grid responsive product display</td>
-            <td>Oct 2024</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Simple Image Gallery</td>
-            <td>Scrollable gallery with hover zoom effect</td>
-            <td>Mar 2026</td>
-        </tr>
-    </table>
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exercise4-BAI GALI | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>My Personal Website</header>
+<nav>
+  <a href="index.html">HOME</a> |
+  <a href="portfolio.html">PORTFOLIO</a> |
+  <a href="trivia.html">TRIVIA</a>
+</nav>
+
+<div class="content-wrap">
+    <aside class="sidebar">
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+            <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <h3>My Portfolio</h3>
+        <table class="portfolio-table">
+            <tr>
+                <th>No.</th>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Finished Date</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Static Personal Blog</td>
+                <td>Simple HTML/CSS static blog page</td>
+                <td>Jan 2024</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>To-do List JS Tool</td>
+                <td>Interactive task list with JavaScript</td>
+                <td>May 2024</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Student Score Calculator</td>
+                <td>Calculate average score with form input</td>
+                <td>Aug 2024</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Responsive Product Card</td>
+                <td>CSS Grid responsive product display</td>
+                <td>Oct 2024</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Simple Image Gallery</td>
+                <td>Scrollable gallery with hover zoom effect</td>
+                <td>Mar 2026</td>
+            </tr>
+        </table>
+    </main>
+
+    <section class="contact">
+        <h3>Contact Me</h3>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+            <p id="formTip"></p>
+        </form>
+    </section>
+</div>
+
+<footer>
+Created in July 2026 | <a href="https://github.com/你的账号" target="_blank">My GitHub</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
