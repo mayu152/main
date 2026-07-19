@@ -1,4 +1,4 @@
-// 联系表单自定义校验
+
 const form = document.getElementById("contactForm");
 if(form){
     form.addEventListener("submit", function(e){
@@ -26,7 +26,7 @@ if(form){
     })
 }
 
-// Trivia页面BMI计算函数（仅trivia.html使用）
+
 function calculateBMI(){
     const height = parseFloat(document.getElementById("height").value);
     const weight = parseFloat(document.getElementById("weight").value);
