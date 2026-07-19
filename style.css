@@ -1,4 +1,4 @@
-/* Reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body{
     margin: 20px auto;
 }
 
-/* Header */
+
 header{
     background-color: #009900;
     color: white;
@@ -22,7 +22,7 @@ header{
     border: 1px solid #333;
 }
 
-/* Navigation */
+
 nav{
     background-color: #d1e0cc;
     text-align: center;
@@ -43,7 +43,7 @@ nav a:hover{
     font-weight: bold;
 }
 
-/* Main Layout */
+
 .content-wrap{
     display: flex;
     gap: 8px;
@@ -58,7 +58,7 @@ nav a:hover{
     border: 1px solid #333;
 }
 
-/* Footer */
+
 footer{
     background-color: #009900;
     color: white;
@@ -70,7 +70,7 @@ footer{
     border: 1px solid #333;
 }
 
-/* Sidebar */
+
 ul{
     padding-left: 30px;
     margin-top: 12px;
@@ -81,7 +81,7 @@ li{
     font-size: 22px;
 }
 
-/* Links */
+
 a{
     text-decoration: none;
     color: #551a8b;
@@ -92,7 +92,7 @@ a:hover{
     font-weight: bold;
 }
 
-/* Main Text */
+
 .main p{
     font-size: 22px;
     margin: 16px 0;
@@ -108,7 +108,7 @@ h4{
     font-size: 20px;
 }
 
-/* Profile Image */
+
 .profile-img{
     width: 100%;
     max-width: 280px;
@@ -117,7 +117,6 @@ h4{
     border-radius: 8px;
 }
 
-/* Contact Form */
 form label{
     display: block;
     margin-top: 12px;
@@ -144,7 +143,7 @@ button:hover{
     color: white;
 }
 
-/* Portfolio Table */
+
 .portfolio-table{
     width: 100%;
     border-collapse: collapse;
@@ -171,20 +170,20 @@ button:hover{
     background-color: #fff3cc;
 }
 
-/* BMI Result */
+
 #bmiResult{
     margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
 }
 
-/* Form Tip */
+
 #formTip{
     margin-top: 10px;
     font-size: 16px;
 }
 
-/* Responsive Layout */
+
 @media (max-width: 900px){
     .content-wrap{
         flex-direction: column;
